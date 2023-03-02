@@ -1,4 +1,5 @@
 ```python
+
 def solution(array):
     nums = [0 for _ in range(max(array)+1)]
     for i in array:
@@ -15,4 +16,5 @@ def solution(array):
         return -1
     else:
         return nums.index(max(nums))
+
 ```
